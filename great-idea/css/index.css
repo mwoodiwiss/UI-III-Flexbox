@@ -71,6 +71,105 @@ h1, h2, h3, h4, h5 {
 }
 
 .menu {
+	padding: 10px;
+	display: inline-flex;
+	flex-flow: row nowrap;
+  justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+.header-text {
+	margin: 20px;
+	font-size: 60px;
+	text-align: center;
+	display: inline-flex;
+	flex-flow: wrap row;
+	/* justify-content: center; */
+	align-content: center;
+	align-items: center;
+	width: 150%;
+	max-width: 100%;
+}
+ 
+
+.header-text a {
+	order: 3;
+	border: 1px solid black;
+	padding: 2px 15px;
+	font-size: 15px;
+	margin: 0 auto;
+	color: black;
+}
+
+.content-top {
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.top-content-left {
+	float: left;
+	width: 49%;
+	margin: 20px 0;
+}
+
+.top-content-right {
+	float: right;
+	width: 49%;
+	margin: 20px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	width: 100%;
+	display: inline-block;
+}
+
+.bottom-content-left {
+	display: inline-block;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.bottom-content-center {
+	display: inline-block;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.bottom-content-right {
+	display: inline-block;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.contact {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+footer {
+	width: 100%;
+	margin: 20px auto 70px auto;
+	text-align: center;
+}
+
+/* .main-container {
+	margin: 0px auto;
+	width: 800px;
+}
+
+.menu {
 	margin: 22px auto;
 	display: inline-block;
 	width: 70%;
@@ -191,4 +290,4 @@ footer {
 	width: 100%;
 	margin: 20px auto 70px auto;
 	text-align: center;
-}
+} */
